@@ -40,11 +40,11 @@ class SortieFixture extends Fixture implements DependentFixtureInterface
                 $ouverte = $etat;
         }
 
-        for ($i = 0; $i < 15; $i++) {
+        for ($i = 0; $i < 35; $i++) {
             $sortie = new Sortie();
             $sortie->setNom($faker->sentence);
             $sortie->setDateHeureDebut($faker->dateTimeBetween('now','30 days'));
-            $sortie->setDateLimiteInscription($faker->dateTimeBetween('-30 days'));
+            $sortie->setDateLimiteInscription($faker->dateTimeBetween('-30 days', '+30 days'));
             $sortie->setDuree(rand(30,900));
             $sortie->setNbInscriptionsMax(rand(3,10));
             $sortie->setInfosSortie($faker->text(50));
