@@ -1,6 +1,6 @@
 <h3>ENI Sorties – Projet Symfony </h3>
 
-_Projet en équipe, avec PHP, Symfony, jQuery, Bootstrap & MySQL_
+_Projet en équipe, avec PHP, Symfony, vanilla JS, Bootstrap & MySQL_
 
 <p align="center">
     <img alt="Screenshot of the webapp, when you successfully registered to an envent" width="450" height="238" src="public/img/Sortir_listesorties.png" title="register_success"/>
